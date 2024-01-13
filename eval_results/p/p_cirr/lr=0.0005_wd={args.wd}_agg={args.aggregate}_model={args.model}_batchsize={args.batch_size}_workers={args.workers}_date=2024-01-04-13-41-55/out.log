@@ -1,0 +1,81 @@
+2024-01-04,13:41:55 | INFO | Rank 0 | Params:
+2024-01-04,13:41:55 | INFO | Rank 0 | C: 3.16
+2024-01-04,13:41:55 | INFO | Rank 0 | aggregate: True
+2024-01-04,13:41:55 | INFO | Rank 0 | batch_size: 64
+2024-01-04,13:41:55 | INFO | Rank 0 | beta1: 0.9
+2024-01-04,13:41:55 | INFO | Rank 0 | beta2: 0.98
+2024-01-04,13:41:55 | INFO | Rank 0 | checkpoint_path: ./eval/p_cirr/lr=0.0005_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-04-13-41-55/checkpoints
+2024-01-04,13:41:55 | INFO | Rank 0 | copy_codebase: False
+2024-01-04,13:41:55 | INFO | Rank 0 | csv_caption_key: title
+2024-01-04,13:41:55 | INFO | Rank 0 | csv_img_key: filepath
+2024-01-04,13:41:55 | INFO | Rank 0 | csv_separator: 	
+2024-01-04,13:41:55 | INFO | Rank 0 | dataset_type: auto
+2024-01-04,13:41:55 | INFO | Rank 0 | dataset_type_val: auto
+2024-01-04,13:41:55 | INFO | Rank 0 | debug: False
+2024-01-04,13:41:55 | INFO | Rank 0 | demo_out: demo
+2024-01-04,13:41:55 | INFO | Rank 0 | dist_backend: nccl
+2024-01-04,13:41:55 | INFO | Rank 0 | dist_url: tcp://127.0.0.1:6100
+2024-01-04,13:41:55 | INFO | Rank 0 | distributed: False
+2024-01-04,13:41:55 | INFO | Rank 0 | dp: False
+2024-01-04,13:41:55 | INFO | Rank 0 | droprate: 0.1
+2024-01-04,13:41:55 | INFO | Rank 0 | epochs: 32
+2024-01-04,13:41:55 | INFO | Rank 0 | eps: 1e-06
+2024-01-04,13:41:55 | INFO | Rank 0 | eval_mode: cirr
+2024-01-04,13:41:55 | INFO | Rank 0 | gpu: 0
+2024-01-04,13:41:55 | INFO | Rank 0 | imagenet_v2: None
+2024-01-04,13:41:55 | INFO | Rank 0 | imagenet_val: None
+2024-01-04,13:41:55 | INFO | Rank 0 | log_level: 20
+2024-01-04,13:41:55 | INFO | Rank 0 | log_path: ./eval/p_cirr/lr=0.0005_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-04-13-41-55/out.log
+2024-01-04,13:41:55 | INFO | Rank 0 | logs: ./eval/p_cirr
+2024-01-04,13:41:55 | INFO | Rank 0 | lr: 0.0005
+2024-01-04,13:41:55 | INFO | Rank 0 | middle_dim: 512
+2024-01-04,13:41:55 | INFO | Rank 0 | model: ViT-L/14
+2024-01-04,13:41:55 | INFO | Rank 0 | multigpu: None
+2024-01-04,13:41:55 | INFO | Rank 0 | n_layer: 2
+2024-01-04,13:41:55 | INFO | Rank 0 | name: lr=0.0005_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-04-13-41-55
+2024-01-04,13:41:55 | INFO | Rank 0 | ngpus_per_node: 2
+2024-01-04,13:41:55 | INFO | Rank 0 | openai_pretrained: True
+2024-01-04,13:41:55 | INFO | Rank 0 | precision: amp
+2024-01-04,13:41:55 | INFO | Rank 0 | prompts: None
+2024-01-04,13:41:55 | INFO | Rank 0 | query_file: None
+2024-01-04,13:41:55 | INFO | Rank 0 | rank: 0
+2024-01-04,13:41:55 | INFO | Rank 0 | regression_frequency: 2
+2024-01-04,13:41:55 | INFO | Rank 0 | report_to: 
+2024-01-04,13:41:55 | INFO | Rank 0 | resume: pre-trained/checkpoints/pic2word_model.pt
+2024-01-04,13:41:55 | INFO | Rank 0 | retrieval_data: None
+2024-01-04,13:41:55 | INFO | Rank 0 | save_frequency: 1
+2024-01-04,13:41:55 | INFO | Rank 0 | save_most_recent: False
+2024-01-04,13:41:55 | INFO | Rank 0 | skip_aggregate: False
+2024-01-04,13:41:55 | INFO | Rank 0 | skip_scheduler: False
+2024-01-04,13:41:55 | INFO | Rank 0 | source_data: None
+2024-01-04,13:41:55 | INFO | Rank 0 | target_data: None
+2024-01-04,13:41:55 | INFO | Rank 0 | target_pad: False
+2024-01-04,13:41:55 | INFO | Rank 0 | tensorboard: False
+2024-01-04,13:41:55 | INFO | Rank 0 | tensorboard_path: 
+2024-01-04,13:41:55 | INFO | Rank 0 | time_suffix: True
+2024-01-04,13:41:55 | INFO | Rank 0 | train_data: None
+2024-01-04,13:41:55 | INFO | Rank 0 | use_bn_sync: False
+2024-01-04,13:41:55 | INFO | Rank 0 | use_debiased_sampler: False
+2024-01-04,13:41:55 | INFO | Rank 0 | use_prefix: False
+2024-01-04,13:41:55 | INFO | Rank 0 | val_data: None
+2024-01-04,13:41:55 | INFO | Rank 0 | wandb: False
+2024-01-04,13:41:55 | INFO | Rank 0 | wandb_notes: 
+2024-01-04,13:41:55 | INFO | Rank 0 | warmup: 10000
+2024-01-04,13:41:55 | INFO | Rank 0 | wd: 0.2
+2024-01-04,13:41:55 | INFO | Rank 0 | workers: 1
+2024-01-04,13:41:55 | INFO | Rank 0 | world_size: 1
+2024-01-04,13:41:55 | INFO | Rank 0 | zeroshot_frequency: 2
+2024-01-04,13:41:55 | INFO | Rank 0 | Use GPU: 0 for training
+2024-01-04,13:42:08 | INFO | Rank 0 | => loaded checkpoint 'pre-trained/checkpoints/pic2word_model.pt' (epoch 30)
+2024-01-04,13:42:08 | INFO | Rank 0 | Use 4181 imgs
+2024-01-04,13:42:08 | INFO | Rank 0 | Use 2297 imgs
+2024-01-04,13:47:53 | INFO | Rank 0 | 
+Eval composed Feature
+recall_R@1: 23.2002	
+recall_R@5: 51.4949	
+recall_R@10: 64.0517	
+recall_R@50: 86.2951	
+recall_R@100: 92.1789
+2024-01-04,13:47:56 | INFO | Rank 0 | Eval image Featurerecall_R@1: 7.2471	recall_R@5: 25.2332	recall_R@10: 35.5178	recall_R@50: 60.0096	recall_R@100: 68.9548
+2024-01-04,13:47:58 | INFO | Rank 0 | Eval text Featurerecall_R@1: 20.6410	recall_R@5: 46.5439	recall_R@10: 57.5939	recall_R@50: 78.5936	recall_R@100: 85.2906
+2024-01-04,13:48:01 | INFO | Rank 0 | Eval mixture Featurerecall_R@1: 12.9873	recall_R@5: 37.6943	recall_R@10: 50.6817	recall_R@50: 78.4262	recall_R@100: 85.6015

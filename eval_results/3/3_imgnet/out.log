@@ -1,0 +1,134 @@
+rnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2024-01-05,06:16:17 | INFO | Rank 0 | Params:
+2024-01-05,06:16:17 | INFO | Rank 0 | C: 3.16
+2024-01-05,06:16:17 | INFO | Rank 0 | aggregate: True
+2024-01-05,06:16:17 | INFO | Rank 0 | batch_size: 64
+2024-01-05,06:16:17 | INFO | Rank 0 | beta1: 0.9
+2024-01-05,06:16:17 | INFO | Rank 0 | beta2: 0.98
+2024-01-05,06:16:17 | INFO | Rank 0 | checkpoint_path: ./eval/3_imgnet/lr=0.0005_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-05-06-16-17/checkpoints
+2024-01-05,06:16:17 | INFO | Rank 0 | copy_codebase: False
+2024-01-05,06:16:17 | INFO | Rank 0 | csv_caption_key: title
+2024-01-05,06:16:17 | INFO | Rank 0 | csv_img_key: filepath
+2024-01-05,06:16:17 | INFO | Rank 0 | csv_separator: 	
+2024-01-05,06:16:17 | INFO | Rank 0 | dataset_type: auto
+2024-01-05,06:16:17 | INFO | Rank 0 | dataset_type_val: auto
+2024-01-05,06:16:17 | INFO | Rank 0 | debug: False
+2024-01-05,06:16:17 | INFO | Rank 0 | demo_out: demo
+2024-01-05,06:16:17 | INFO | Rank 0 | dist_backend: nccl
+2024-01-05,06:16:17 | INFO | Rank 0 | dist_url: tcp://127.0.0.1:6100
+2024-01-05,06:16:17 | INFO | Rank 0 | distributed: False
+2024-01-05,06:16:17 | INFO | Rank 0 | dp: False
+2024-01-05,06:16:17 | INFO | Rank 0 | droprate: 0.1
+2024-01-05,06:16:17 | INFO | Rank 0 | epochs: 32
+2024-01-05,06:16:17 | INFO | Rank 0 | eps: 1e-06
+2024-01-05,06:16:17 | INFO | Rank 0 | eval_mode: imgnet
+2024-01-05,06:16:17 | INFO | Rank 0 | gpu: 0
+2024-01-05,06:16:17 | INFO | Rank 0 | imagenet_v2: None
+2024-01-05,06:16:17 | INFO | Rank 0 | imagenet_val: None
+2024-01-05,06:16:17 | INFO | Rank 0 | log_level: 20
+2024-01-05,06:16:17 | INFO | Rank 0 | log_path: ./eval/3_imgnet/lr=0.0005_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-05-06-16-17/out.log
+2024-01-05,06:16:17 | INFO | Rank 0 | logs: ./eval/3_imgnet
+2024-01-05,06:16:17 | INFO | Rank 0 | lr: 0.0005
+2024-01-05,06:16:17 | INFO | Rank 0 | middle_dim: 512
+2024-01-05,06:16:17 | INFO | Rank 0 | model: ViT-L/14
+2024-01-05,06:16:17 | INFO | Rank 0 | multigpu: None
+2024-01-05,06:16:17 | INFO | Rank 0 | n_layer: 2
+2024-01-05,06:16:17 | INFO | Rank 0 | name: lr=0.0005_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-05-06-16-17
+2024-01-05,06:16:17 | INFO | Rank 0 | ngpus_per_node: 2
+2024-01-05,06:16:17 | INFO | Rank 0 | openai_pretrained: True
+2024-01-05,06:16:17 | INFO | Rank 0 | precision: amp
+2024-01-05,06:16:17 | INFO | Rank 0 | prompts: None
+2024-01-05,06:16:17 | INFO | Rank 0 | query_file: None
+2024-01-05,06:16:17 | INFO | Rank 0 | rank: 0
+2024-01-05,06:16:17 | INFO | Rank 0 | regression_frequency: 2
+2024-01-05,06:16:17 | INFO | Rank 0 | report_to: 
+2024-01-05,06:16:17 | INFO | Rank 0 | resume: epoch_3.pt
+2024-01-05,06:16:17 | INFO | Rank 0 | retrieval_data: None
+2024-01-05,06:16:17 | INFO | Rank 0 | save_frequency: 1
+2024-01-05,06:16:17 | INFO | Rank 0 | save_most_recent: False
+2024-01-05,06:16:17 | INFO | Rank 0 | skip_aggregate: False
+2024-01-05,06:16:17 | INFO | Rank 0 | skip_scheduler: False
+2024-01-05,06:16:17 | INFO | Rank 0 | source_data: None
+2024-01-05,06:16:17 | INFO | Rank 0 | target_data: None
+2024-01-05,06:16:17 | INFO | Rank 0 | target_pad: False
+2024-01-05,06:16:17 | INFO | Rank 0 | tensorboard: False
+2024-01-05,06:16:17 | INFO | Rank 0 | tensorboard_path: 
+2024-01-05,06:16:17 | INFO | Rank 0 | time_suffix: True
+2024-01-05,06:16:17 | INFO | Rank 0 | train_data: None
+2024-01-05,06:16:17 | INFO | Rank 0 | use_bn_sync: False
+2024-01-05,06:16:17 | INFO | Rank 0 | use_debiased_sampler: False
+2024-01-05,06:16:17 | INFO | Rank 0 | use_prefix: False
+2024-01-05,06:16:17 | INFO | Rank 0 | val_data: None
+2024-01-05,06:16:17 | INFO | Rank 0 | wandb: False
+2024-01-05,06:16:17 | INFO | Rank 0 | wandb_notes: 
+2024-01-05,06:16:17 | INFO | Rank 0 | warmup: 10000
+2024-01-05,06:16:17 | INFO | Rank 0 | wd: 0.2
+2024-01-05,06:16:17 | INFO | Rank 0 | workers: 1
+2024-01-05,06:16:17 | INFO | Rank 0 | world_size: 1
+2024-01-05,06:16:17 | INFO | Rank 0 | zeroshot_frequency: 2
+2024-01-05,06:16:17 | INFO | Rank 0 | Use GPU: 0 for training
+2024-01-05,06:16:28 | INFO | Rank 0 | => loaded checkpoint 'epoch_3.pt' (epoch 3)
+  0%|                                                   | 0/266 [00:00<?, ?it/s]/opt/conda/lib/python3.10/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+100%|█████████████████████████████████████████| 266/266 [13:41<00:00,  3.09s/it]
+  0%|                                                   | 0/157 [00:00<?, ?it/s]/opt/conda/lib/python3.10/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+100%|█████████████████████████████████████████| 157/157 [08:53<00:00,  3.40s/it]
+2024-01-05,06:39:12 | INFO | Rank 0 | 
+Eval composed Feature
+Real2Sketch_R@1: 0.0130	Real2Sketch_P@1: 0.2399	
+Real2Sketch_R@5: 0.0457	Real2Sketch_P@5: 0.1843	
+Real2Sketch_R@10: 0.0754	Real2Sketch_P@10: 0.1586	
+Real2Sketch_R@50: 0.1969	Real2Sketch_P@50: 0.0891	
+Real2Sketch_R@100: 0.2729	Real2Sketch_P@100: 0.0630	
+Real2Sketch_R@200: 0.3598	Real2Sketch_P@200: 0.0423
+
+2024-01-05,06:39:21 | INFO | Rank 0 | Eval image FeatureReal2Sketch_R@1: 0.0000	Real2Sketch_P@1: 0.0000	Real2Sketch_R@5: 0.0010	Real2Sketch_P@5: 0.0048	Real2Sketch_R@10: 0.0031	Real2Sketch_P@10: 0.0069	Real2Sketch_R@50: 0.0449	Real2Sketch_P@50: 0.0202	Real2Sketch_R@100: 0.1017	Real2Sketch_P@100: 0.0228	Real2Sketch_R@200: 0.1639	Real2Sketch_P@200: 0.0189
+2024-01-05,06:39:30 | INFO | Rank 0 | Eval text FeatureReal2Sketch_R@1: 0.0001	Real2Sketch_P@1: 0.0050	Real2Sketch_R@5: 0.0008	Real2Sketch_P@5: 0.0050	Real2Sketch_R@10: 0.0018	Real2Sketch_P@10: 0.0050	Real2Sketch_R@50: 0.0106	Real2Sketch_P@50: 0.0050	Real2Sketch_R@100: 0.0224	Real2Sketch_P@100: 0.0050	Real2Sketch_R@200: 0.0434	Real2Sketch_P@200: 0.0050
+2024-01-05,06:39:40 | INFO | Rank 0 | Eval mixture FeatureReal2Sketch_R@1: 0.0000	Real2Sketch_P@1: 0.0000	Real2Sketch_R@5: 0.0091	Real2Sketch_P@5: 0.0393	Real2Sketch_R@10: 0.0218	Real2Sketch_P@10: 0.0484	Real2Sketch_R@50: 0.1332	Real2Sketch_P@50: 0.0628	Real2Sketch_R@100: 0.2196	Real2Sketch_P@100: 0.0524	Real2Sketch_R@200: 0.3015	Real2Sketch_P@200: 0.0363
+  0%|                                                   | 0/157 [00:00<?, ?it/s]/opt/conda/lib/python3.10/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+100%|█████████████████████████████████████████| 157/157 [08:54<00:00,  3.40s/it]
+2024-01-05,06:48:43 | INFO | Rank 0 | 
+Eval composed Feature
+Real2Sketch_R@1: 0.0239	Real2Sketch_P@1: 0.1025	
+Real2Sketch_R@5: 0.0825	Real2Sketch_P@5: 0.0770	
+Real2Sketch_R@10: 0.1200	Real2Sketch_P@10: 0.0597	
+Real2Sketch_R@50: 0.2624	Real2Sketch_P@50: 0.0282	
+Real2Sketch_R@100: 0.3250	Real2Sketch_P@100: 0.0178	
+Real2Sketch_R@200: 0.3844	Real2Sketch_P@200: 0.0105
+
+2024-01-05,06:48:52 | INFO | Rank 0 | Eval image FeatureReal2Sketch_R@1: 0.0000	Real2Sketch_P@1: 0.0000	Real2Sketch_R@5: 0.0011	Real2Sketch_P@5: 0.0008	Real2Sketch_R@10: 0.0022	Real2Sketch_P@10: 0.0009	Real2Sketch_R@50: 0.0175	Real2Sketch_P@50: 0.0013	Real2Sketch_R@100: 0.0368	Real2Sketch_P@100: 0.0016	Real2Sketch_R@200: 0.0676	Real2Sketch_P@200: 0.0016
+2024-01-05,06:49:01 | INFO | Rank 0 | Eval text FeatureReal2Sketch_R@1: 0.0025	Real2Sketch_P@1: 0.0050	Real2Sketch_R@5: 0.0057	Real2Sketch_P@5: 0.0050	Real2Sketch_R@10: 0.0084	Real2Sketch_P@10: 0.0050	Real2Sketch_R@50: 0.0374	Real2Sketch_P@50: 0.0049	Real2Sketch_R@100: 0.0641	Real2Sketch_P@100: 0.0049	Real2Sketch_R@200: 0.1411	Real2Sketch_P@200: 0.0049
+2024-01-05,06:49:10 | INFO | Rank 0 | Eval mixture FeatureReal2Sketch_R@1: 0.0000	Real2Sketch_P@1: 0.0000	Real2Sketch_R@5: 0.0102	Real2Sketch_P@5: 0.0078	Real2Sketch_R@10: 0.0203	Real2Sketch_P@10: 0.0086	Real2Sketch_R@50: 0.1027	Real2Sketch_P@50: 0.0102	Real2Sketch_R@100: 0.1755	Real2Sketch_P@100: 0.0094	Real2Sketch_R@200: 0.2465	Real2Sketch_P@200: 0.0068
+  0%|                                                   | 0/157 [00:00<?, ?it/s]/opt/conda/lib/python3.10/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+100%|█████████████████████████████████████████| 157/157 [08:54<00:00,  3.41s/it]
+2024-01-05,06:58:14 | INFO | Rank 0 | 
+Eval composed Feature
+Real2Sketch_R@1: 0.0106	Real2Sketch_P@1: 0.0869	
+Real2Sketch_R@5: 0.0400	Real2Sketch_P@5: 0.0759	
+Real2Sketch_R@10: 0.0675	Real2Sketch_P@10: 0.0665	
+Real2Sketch_R@50: 0.1848	Real2Sketch_P@50: 0.0393	
+Real2Sketch_R@100: 0.2593	Real2Sketch_P@100: 0.0284	
+Real2Sketch_R@200: 0.3395	Real2Sketch_P@200: 0.0189
+
+2024-01-05,06:58:23 | INFO | Rank 0 | Eval image FeatureReal2Sketch_R@1: 0.0000	Real2Sketch_P@1: 0.0000	Real2Sketch_R@5: 0.0021	Real2Sketch_P@5: 0.0032	Real2Sketch_R@10: 0.0055	Real2Sketch_P@10: 0.0043	Real2Sketch_R@50: 0.0565	Real2Sketch_P@50: 0.0107	Real2Sketch_R@100: 0.1109	Real2Sketch_P@100: 0.0122	Real2Sketch_R@200: 0.1728	Real2Sketch_P@200: 0.0097
+2024-01-05,06:58:33 | INFO | Rank 0 | Eval text FeatureReal2Sketch_R@1: 0.0003	Real2Sketch_P@1: 0.0050	Real2Sketch_R@5: 0.0068	Real2Sketch_P@5: 0.0050	Real2Sketch_R@10: 0.0078	Real2Sketch_P@10: 0.0050	Real2Sketch_R@50: 0.0238	Real2Sketch_P@50: 0.0043	Real2Sketch_R@100: 0.0384	Real2Sketch_P@100: 0.0041	Real2Sketch_R@200: 0.0640	Real2Sketch_P@200: 0.0037
+2024-01-05,06:58:42 | INFO | Rank 0 | Eval mixture FeatureReal2Sketch_R@1: 0.0000	Real2Sketch_P@1: 0.0000	Real2Sketch_R@5: 0.0047	Real2Sketch_P@5: 0.0084	Real2Sketch_R@10: 0.0117	Real2Sketch_P@10: 0.0103	Real2Sketch_R@50: 0.0970	Real2Sketch_P@50: 0.0200	Real2Sketch_R@100: 0.1751	Real2Sketch_P@100: 0.0198	Real2Sketch_R@200: 0.2605	Real2Sketch_P@200: 0.0148
+  0%|                                                   | 0/157 [00:00<?, ?it/s]/opt/conda/lib/python3.10/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+100%|█████████████████████████████████████████| 157/157 [08:54<00:00,  3.40s/it]
+2024-01-05,07:07:45 | INFO | Rank 0 | 
+Eval composed Feature
+Real2Sketch_R@1: 0.0141	Real2Sketch_P@1: 0.0946	
+Real2Sketch_R@5: 0.0537	Real2Sketch_P@5: 0.0769	
+Real2Sketch_R@10: 0.0862	Real2Sketch_P@10: 0.0655	
+Real2Sketch_R@50: 0.2109	Real2Sketch_P@50: 0.0371	
+Real2Sketch_R@100: 0.2881	Real2Sketch_P@100: 0.0260	
+Real2Sketch_R@200: 0.3717	Real2Sketch_P@200: 0.0169
+
+2024-01-05,07:07:55 | INFO | Rank 0 | Eval image FeatureReal2Sketch_R@1: 0.0000	Real2Sketch_P@1: 0.0000	Real2Sketch_R@5: 0.0017	Real2Sketch_P@5: 0.0026	Real2Sketch_R@10: 0.0033	Real2Sketch_P@10: 0.0027	Real2Sketch_R@50: 0.0404	Real2Sketch_P@50: 0.0064	Real2Sketch_R@100: 0.0922	Real2Sketch_P@100: 0.0073	Real2Sketch_R@200: 0.1553	Real2Sketch_P@200: 0.0062
+2024-01-05,07:08:04 | INFO | Rank 0 | Eval text FeatureReal2Sketch_R@1: 0.0001	Real2Sketch_P@1: 0.0050	Real2Sketch_R@5: 0.0017	Real2Sketch_P@5: 0.0050	Real2Sketch_R@10: 0.0035	Real2Sketch_P@10: 0.0050	Real2Sketch_R@50: 0.0202	Real2Sketch_P@50: 0.0049	Real2Sketch_R@100: 0.0440	Real2Sketch_P@100: 0.0047	Real2Sketch_R@200: 0.0899	Real2Sketch_P@200: 0.0046
+2024-01-05,07:08:13 | INFO | Rank 0 | Eval mixture FeatureReal2Sketch_R@1: 0.0000	Real2Sketch_P@1: 0.0000	Real2Sketch_R@5: 0.0063	Real2Sketch_P@5: 0.0113	Real2Sketch_R@10: 0.0156	Real2Sketch_P@10: 0.0136	Real2Sketch_R@50: 0.1156	Real2Sketch_P@50: 0.0198	Real2Sketch_R@100: 0.2021	Real2Sketch_P@100: 0.0180	Real2Sketch_R@200: 0.2895	Real2Sketch_P@200: 0.0129
+evaluation done

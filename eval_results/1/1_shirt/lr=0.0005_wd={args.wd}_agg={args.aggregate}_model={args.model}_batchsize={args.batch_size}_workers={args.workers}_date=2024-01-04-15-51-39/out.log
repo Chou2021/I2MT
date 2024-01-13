@@ -1,0 +1,82 @@
+2024-01-04,15:51:39 | INFO | Rank 0 | Params:
+2024-01-04,15:51:39 | INFO | Rank 0 | C: 3.16
+2024-01-04,15:51:39 | INFO | Rank 0 | aggregate: True
+2024-01-04,15:51:39 | INFO | Rank 0 | batch_size: 64
+2024-01-04,15:51:39 | INFO | Rank 0 | beta1: 0.9
+2024-01-04,15:51:39 | INFO | Rank 0 | beta2: 0.98
+2024-01-04,15:51:39 | INFO | Rank 0 | checkpoint_path: ./eval/1_shirt/lr=0.0005_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-04-15-51-39/checkpoints
+2024-01-04,15:51:39 | INFO | Rank 0 | copy_codebase: False
+2024-01-04,15:51:39 | INFO | Rank 0 | csv_caption_key: title
+2024-01-04,15:51:39 | INFO | Rank 0 | csv_img_key: filepath
+2024-01-04,15:51:39 | INFO | Rank 0 | csv_separator: 	
+2024-01-04,15:51:39 | INFO | Rank 0 | dataset_type: auto
+2024-01-04,15:51:39 | INFO | Rank 0 | dataset_type_val: auto
+2024-01-04,15:51:39 | INFO | Rank 0 | debug: False
+2024-01-04,15:51:39 | INFO | Rank 0 | demo_out: demo
+2024-01-04,15:51:39 | INFO | Rank 0 | dist_backend: nccl
+2024-01-04,15:51:39 | INFO | Rank 0 | dist_url: tcp://127.0.0.1:6100
+2024-01-04,15:51:39 | INFO | Rank 0 | distributed: False
+2024-01-04,15:51:39 | INFO | Rank 0 | dp: False
+2024-01-04,15:51:39 | INFO | Rank 0 | droprate: 0.1
+2024-01-04,15:51:39 | INFO | Rank 0 | epochs: 32
+2024-01-04,15:51:39 | INFO | Rank 0 | eps: 1e-06
+2024-01-04,15:51:39 | INFO | Rank 0 | eval_mode: fashion
+2024-01-04,15:51:39 | INFO | Rank 0 | gpu: 0
+2024-01-04,15:51:39 | INFO | Rank 0 | imagenet_v2: None
+2024-01-04,15:51:39 | INFO | Rank 0 | imagenet_val: None
+2024-01-04,15:51:39 | INFO | Rank 0 | log_level: 20
+2024-01-04,15:51:39 | INFO | Rank 0 | log_path: ./eval/1_shirt/lr=0.0005_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-04-15-51-39/out.log
+2024-01-04,15:51:39 | INFO | Rank 0 | logs: ./eval/1_shirt
+2024-01-04,15:51:39 | INFO | Rank 0 | lr: 0.0005
+2024-01-04,15:51:39 | INFO | Rank 0 | middle_dim: 512
+2024-01-04,15:51:39 | INFO | Rank 0 | model: ViT-L/14
+2024-01-04,15:51:39 | INFO | Rank 0 | multigpu: None
+2024-01-04,15:51:39 | INFO | Rank 0 | n_layer: 2
+2024-01-04,15:51:39 | INFO | Rank 0 | name: lr=0.0005_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-04-15-51-39
+2024-01-04,15:51:39 | INFO | Rank 0 | ngpus_per_node: 2
+2024-01-04,15:51:39 | INFO | Rank 0 | openai_pretrained: True
+2024-01-04,15:51:39 | INFO | Rank 0 | precision: amp
+2024-01-04,15:51:39 | INFO | Rank 0 | prompts: None
+2024-01-04,15:51:39 | INFO | Rank 0 | query_file: None
+2024-01-04,15:51:39 | INFO | Rank 0 | rank: 0
+2024-01-04,15:51:39 | INFO | Rank 0 | regression_frequency: 2
+2024-01-04,15:51:39 | INFO | Rank 0 | report_to: 
+2024-01-04,15:51:39 | INFO | Rank 0 | resume: epoch_1.pt
+2024-01-04,15:51:39 | INFO | Rank 0 | retrieval_data: None
+2024-01-04,15:51:39 | INFO | Rank 0 | save_frequency: 1
+2024-01-04,15:51:39 | INFO | Rank 0 | save_most_recent: False
+2024-01-04,15:51:39 | INFO | Rank 0 | skip_aggregate: False
+2024-01-04,15:51:39 | INFO | Rank 0 | skip_scheduler: False
+2024-01-04,15:51:39 | INFO | Rank 0 | source_data: shirt
+2024-01-04,15:51:39 | INFO | Rank 0 | target_data: None
+2024-01-04,15:51:39 | INFO | Rank 0 | target_pad: False
+2024-01-04,15:51:39 | INFO | Rank 0 | tensorboard: False
+2024-01-04,15:51:39 | INFO | Rank 0 | tensorboard_path: 
+2024-01-04,15:51:39 | INFO | Rank 0 | time_suffix: True
+2024-01-04,15:51:39 | INFO | Rank 0 | train_data: None
+2024-01-04,15:51:39 | INFO | Rank 0 | use_bn_sync: False
+2024-01-04,15:51:39 | INFO | Rank 0 | use_debiased_sampler: False
+2024-01-04,15:51:39 | INFO | Rank 0 | use_prefix: False
+2024-01-04,15:51:39 | INFO | Rank 0 | val_data: None
+2024-01-04,15:51:39 | INFO | Rank 0 | wandb: False
+2024-01-04,15:51:39 | INFO | Rank 0 | wandb_notes: 
+2024-01-04,15:51:39 | INFO | Rank 0 | warmup: 10000
+2024-01-04,15:51:39 | INFO | Rank 0 | wd: 0.2
+2024-01-04,15:51:39 | INFO | Rank 0 | workers: 1
+2024-01-04,15:51:39 | INFO | Rank 0 | world_size: 1
+2024-01-04,15:51:39 | INFO | Rank 0 | zeroshot_frequency: 2
+2024-01-04,15:51:39 | INFO | Rank 0 | Use GPU: 0 for training
+2024-01-04,15:51:52 | INFO | Rank 0 | => loaded checkpoint 'epoch_1.pt' (epoch 1)
+2024-01-04,15:51:53 | INFO | Rank 0 | Use 2038 imgs
+2024-01-04,15:51:53 | INFO | Rank 0 | Use 6346 imgs
+2024-01-04,16:00:30 | INFO | Rank 0 | 
+Eval composed Feature
+R@1: 7.7036	
+R@5: 15.5054	
+R@10: 19.5289	
+R@50: 31.9921	
+R@100: 41.1678
+
+2024-01-04,16:00:36 | INFO | Rank 0 | Eval image FeatureR@1: 0.1472	R@5: 6.6241	R@10: 10.4024	R@50: 19.9706	R@100: 25.2208
+2024-01-04,16:00:43 | INFO | Rank 0 | Eval text FeatureR@1: 7.9980	R@5: 15.1619	R@10: 18.5476	R@50: 31.1580	R@100: 39.0579
+2024-01-04,16:00:50 | INFO | Rank 0 | Eval mixture FeatureR@1: 0.1472	R@5: 14.1315	R@10: 20.8538	R@50: 34.4455	R@100: 41.5113

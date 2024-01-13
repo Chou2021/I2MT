@@ -1,0 +1,89 @@
+2024-01-05,11:12:43 | INFO | Rank 0 | Params:
+2024-01-05,11:12:43 | INFO | Rank 0 | C: 3.16
+2024-01-05,11:12:43 | INFO | Rank 0 | aggregate: True
+2024-01-05,11:12:43 | INFO | Rank 0 | batch_size: 64
+2024-01-05,11:12:43 | INFO | Rank 0 | beta1: 0.9
+2024-01-05,11:12:43 | INFO | Rank 0 | beta2: 0.98
+2024-01-05,11:12:43 | INFO | Rank 0 | checkpoint_path: ./eval/mt_coco/lr=0.0005_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-05-11-12-43/checkpoints
+2024-01-05,11:12:43 | INFO | Rank 0 | copy_codebase: False
+2024-01-05,11:12:43 | INFO | Rank 0 | csv_caption_key: title
+2024-01-05,11:12:43 | INFO | Rank 0 | csv_img_key: filepath
+2024-01-05,11:12:43 | INFO | Rank 0 | csv_separator: 	
+2024-01-05,11:12:43 | INFO | Rank 0 | dataset_type: auto
+2024-01-05,11:12:43 | INFO | Rank 0 | dataset_type_val: auto
+2024-01-05,11:12:43 | INFO | Rank 0 | debug: False
+2024-01-05,11:12:43 | INFO | Rank 0 | demo_out: demo
+2024-01-05,11:12:43 | INFO | Rank 0 | dist_backend: nccl
+2024-01-05,11:12:43 | INFO | Rank 0 | dist_url: tcp://127.0.0.1:6100
+2024-01-05,11:12:43 | INFO | Rank 0 | distributed: False
+2024-01-05,11:12:43 | INFO | Rank 0 | dp: False
+2024-01-05,11:12:43 | INFO | Rank 0 | droprate: 0.1
+2024-01-05,11:12:43 | INFO | Rank 0 | epochs: 32
+2024-01-05,11:12:43 | INFO | Rank 0 | eps: 1e-06
+2024-01-05,11:12:43 | INFO | Rank 0 | eval_mode: coco
+2024-01-05,11:12:43 | INFO | Rank 0 | gpu: 0
+2024-01-05,11:12:43 | INFO | Rank 0 | imagenet_v2: None
+2024-01-05,11:12:43 | INFO | Rank 0 | imagenet_val: None
+2024-01-05,11:12:43 | INFO | Rank 0 | log_level: 20
+2024-01-05,11:12:43 | INFO | Rank 0 | log_path: ./eval/mt_coco/lr=0.0005_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-05-11-12-43/out.log
+2024-01-05,11:12:43 | INFO | Rank 0 | logs: ./eval/mt_coco
+2024-01-05,11:12:43 | INFO | Rank 0 | lr: 0.0005
+2024-01-05,11:12:43 | INFO | Rank 0 | middle_dim: 512
+2024-01-05,11:12:43 | INFO | Rank 0 | model: ViT-L/14
+2024-01-05,11:12:43 | INFO | Rank 0 | multigpu: None
+2024-01-05,11:12:43 | INFO | Rank 0 | n_layer: 2
+2024-01-05,11:12:43 | INFO | Rank 0 | name: lr=0.0005_wd={args.wd}_agg={args.aggregate}_model={args.model}_batchsize={args.batch_size}_workers={args.workers}_date=2024-01-05-11-12-43
+2024-01-05,11:12:43 | INFO | Rank 0 | ngpus_per_node: 2
+2024-01-05,11:12:43 | INFO | Rank 0 | openai_pretrained: True
+2024-01-05,11:12:43 | INFO | Rank 0 | precision: amp
+2024-01-05,11:12:43 | INFO | Rank 0 | prompts: None
+2024-01-05,11:12:43 | INFO | Rank 0 | query_file: None
+2024-01-05,11:12:43 | INFO | Rank 0 | rank: 0
+2024-01-05,11:12:43 | INFO | Rank 0 | regression_frequency: 2
+2024-01-05,11:12:43 | INFO | Rank 0 | report_to: 
+2024-01-05,11:12:43 | INFO | Rank 0 | resume: pic2word_mt.pt
+2024-01-05,11:12:43 | INFO | Rank 0 | retrieval_data: None
+2024-01-05,11:12:43 | INFO | Rank 0 | save_frequency: 1
+2024-01-05,11:12:43 | INFO | Rank 0 | save_most_recent: False
+2024-01-05,11:12:43 | INFO | Rank 0 | skip_aggregate: False
+2024-01-05,11:12:43 | INFO | Rank 0 | skip_scheduler: False
+2024-01-05,11:12:43 | INFO | Rank 0 | source_data: None
+2024-01-05,11:12:43 | INFO | Rank 0 | target_data: None
+2024-01-05,11:12:43 | INFO | Rank 0 | target_pad: False
+2024-01-05,11:12:43 | INFO | Rank 0 | tensorboard: False
+2024-01-05,11:12:43 | INFO | Rank 0 | tensorboard_path: 
+2024-01-05,11:12:43 | INFO | Rank 0 | time_suffix: True
+2024-01-05,11:12:43 | INFO | Rank 0 | train_data: None
+2024-01-05,11:12:43 | INFO | Rank 0 | use_bn_sync: False
+2024-01-05,11:12:43 | INFO | Rank 0 | use_debiased_sampler: False
+2024-01-05,11:12:43 | INFO | Rank 0 | use_prefix: False
+2024-01-05,11:12:43 | INFO | Rank 0 | val_data: None
+2024-01-05,11:12:43 | INFO | Rank 0 | wandb: False
+2024-01-05,11:12:43 | INFO | Rank 0 | wandb_notes: 
+2024-01-05,11:12:43 | INFO | Rank 0 | warmup: 10000
+2024-01-05,11:12:43 | INFO | Rank 0 | wd: 0.2
+2024-01-05,11:12:43 | INFO | Rank 0 | workers: 1
+2024-01-05,11:12:43 | INFO | Rank 0 | world_size: 1
+2024-01-05,11:12:43 | INFO | Rank 0 | zeroshot_frequency: 2
+2024-01-05,11:12:43 | INFO | Rank 0 | Use GPU: 0 for training
+2024-01-05,11:12:54 | INFO | Rank 0 | => loaded checkpoint 'pic2word_mt.pt' (epoch 3)
+2024-01-05,11:21:27 | INFO | Rank 0 | 
+Eval composed Feature
+image_to_ref_mean_rank: 76.2686	
+image_to_ref_median_rank: 19.0000	
+image_to_ref_R@1: 0.1475	
+image_to_ref_R@5: 0.2967	
+image_to_ref_R@10: 0.3952	
+image_to_ref_R@50: 0.7041	
+image_to_ref_R@100: 0.8556	
+ref_to_image_mean_rank: 136.2886	
+ref_to_image_median_rank: 34.0000	
+ref_to_image_R@1: 0.0774	
+ref_to_image_R@5: 0.1973	
+ref_to_image_R@10: 0.2770	
+ref_to_image_R@50: 0.5885	
+ref_to_image_R@100: 0.7408
+
+2024-01-05,11:21:30 | INFO | Rank 0 | Eval image Featureimage_to_ref_mean_rank: 1086.1671	image_to_ref_median_rank: 384.0000	image_to_ref_R@1: 0.1268	image_to_ref_R@5: 0.2034	image_to_ref_R@10: 0.2476	image_to_ref_R@50: 0.3587	image_to_ref_R@100: 0.4031	ref_to_image_mean_rank: 1284.4313	ref_to_image_median_rank: 556.0000	ref_to_image_R@1: 0.0898	ref_to_image_R@5: 0.1561	ref_to_image_R@10: 0.1987	ref_to_image_R@50: 0.3020	ref_to_image_R@100: 0.3547
+2024-01-05,11:21:34 | INFO | Rank 0 | Eval text Featureimage_to_ref_mean_rank: 83.5534	image_to_ref_median_rank: 27.0000	image_to_ref_R@1: 0.0768	image_to_ref_R@5: 0.2038	image_to_ref_R@10: 0.2980	image_to_ref_R@50: 0.6693	image_to_ref_R@100: 0.8489	ref_to_image_mean_rank: 128.6369	ref_to_image_median_rank: 39.0000	ref_to_image_R@1: 0.0594	ref_to_image_R@5: 0.1563	ref_to_image_R@10: 0.2348	ref_to_image_R@50: 0.5692	ref_to_image_R@100: 0.7599
+2024-01-05,11:21:37 | INFO | Rank 0 | Eval mixture Featureimage_to_ref_mean_rank: 154.9595	image_to_ref_median_rank: 41.0000	image_to_ref_R@1: 0.1622	image_to_ref_R@5: 0.2613	image_to_ref_R@10: 0.3158	image_to_ref_R@50: 0.5414	image_to_ref_R@100: 0.6852	ref_to_image_mean_rank: 492.2010	ref_to_image_median_rank: 62.0000	ref_to_image_R@1: 0.1079	ref_to_image_R@5: 0.2050	ref_to_image_R@10: 0.2735	ref_to_image_R@50: 0.4676	ref_to_image_R@100: 0.5622
